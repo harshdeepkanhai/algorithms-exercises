@@ -33,10 +33,7 @@ class ArrayList {
 
   pop() {
     // remove the last item in the array and returns it
-    const response = this.data[this.length - 1];
-    delete this.data[this.length - 1];
-    this.length--;
-    return response;
+    return this.delete(this.length - 1);
   }
 
   get(index) {
