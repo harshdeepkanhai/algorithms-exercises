@@ -18,7 +18,7 @@ function sort(nums) {
       nums[j + 1] = nums[j];
       snapshot(nums);
     }
-    jums[j + 1] = numberToInsert;
+    nums[j + 1] = numberToInsert;
     snapshot(nums);
   }
   snapshot(nums);

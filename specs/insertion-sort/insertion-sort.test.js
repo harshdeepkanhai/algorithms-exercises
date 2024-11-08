@@ -21,7 +21,7 @@ function insertionSort(nums) {
     for (j = i - 1; nums[j] > numberToInsert && j >= 0; j--) {
       nums[j + 1] = nums[j];
     }
-    jums[j + 1] = numberToInsert;
+    nums[j + 1] = numberToInsert;
   }
   return nums;
 }
